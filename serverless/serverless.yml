@@ -38,7 +38,7 @@ iam:
         Action:
           - dynamobd: PutItem
         Resource: 
-          - ""
+          - "arn:aws:dynamodb:sa-east-1:271719241903:table/ProductsVideo"
 
 package:
   patterns:

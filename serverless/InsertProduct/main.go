@@ -77,7 +77,7 @@ func InsertProduct(request events.APIGatewayProxyRequest) (events.APIGatewayProx
 }
 
 func main() {
-	fmt.Println("Hello Serverless")
+	fmt.Println("InsertProduct")
 
 	lambda.Start(InsertProduct)
 }
