@@ -1,0 +1,11 @@
+POST https://k5k20ssrrf.execute-api.sa-east-1.amazonaws.com/products HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Product 1",
+  "price": 100
+}
+
+###
+GET https://k5k20ssrrf.execute-api.sa-east-1.amazonaws.com/products HTTP/1.1
+Content-Type: application/json
