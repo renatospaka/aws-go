@@ -1,3 +1,3 @@
-module github.com/go-aws/serverless
+module github.com/renatospaka/serverless-video
 
 go 1.20
